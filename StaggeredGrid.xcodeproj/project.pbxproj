@@ -14,6 +14,8 @@
 		7D56BF43238159F8009D44DE /* StaggeredGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D56BF41238159F8009D44DE /* StaggeredGrid.xcdatamodeld */; };
 		7D56BF45238159FE009D44DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D56BF44238159FE009D44DE /* Assets.xcassets */; };
 		7D56BF48238159FE009D44DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D56BF46238159FE009D44DE /* LaunchScreen.storyboard */; };
+		7D56BF5223815B8B009D44DE /* StaggeredGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56BF5123815B8B009D44DE /* StaggeredGridLayout.swift */; };
+		7D7D11FC238289D600756E2F /* StaggeredGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D11FB238289D600756E2F /* StaggeredGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7D56BF44238159FE009D44DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D56BF47238159FE009D44DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D56BF49238159FE009D44DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D56BF5123815B8B009D44DE /* StaggeredGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGridLayout.swift; sourceTree = "<group>"; };
+		7D7D11FB238289D600756E2F /* StaggeredGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,34 @@
 		7D56BF37238159F8009D44DE /* StaggeredGrid */ = {
 			isa = PBXGroup;
 			children = (
+				7D56BF5123815B8B009D44DE /* StaggeredGridLayout.swift */,
+				7D56BF3C238159F8009D44DE /* ViewController.swift */,
+				7D56BF5023815B55009D44DE /* Layouts */,
+				7D56BF4F23815A64009D44DE /* Controllers */,
 				7D56BF38238159F8009D44DE /* AppDelegate.swift */,
 				7D56BF3A238159F8009D44DE /* SceneDelegate.swift */,
-				7D56BF3C238159F8009D44DE /* ViewController.swift */,
 				7D56BF3E238159F8009D44DE /* Main.storyboard */,
 				7D56BF44238159FE009D44DE /* Assets.xcassets */,
 				7D56BF46238159FE009D44DE /* LaunchScreen.storyboard */,
 				7D56BF49238159FE009D44DE /* Info.plist */,
 				7D56BF41238159F8009D44DE /* StaggeredGrid.xcdatamodeld */,
+				7D7D11FB238289D600756E2F /* StaggeredGridCell.swift */,
 			);
 			path = StaggeredGrid;
+			sourceTree = "<group>";
+		};
+		7D56BF4F23815A64009D44DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D56BF5023815B55009D44DE /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D56BF5223815B8B009D44DE /* StaggeredGridLayout.swift in Sources */,
 				7D56BF3D238159F8009D44DE /* ViewController.swift in Sources */,
 				7D56BF39238159F8009D44DE /* AppDelegate.swift in Sources */,
 				7D56BF43238159F8009D44DE /* StaggeredGrid.xcdatamodeld in Sources */,
+				7D7D11FC238289D600756E2F /* StaggeredGridCell.swift in Sources */,
 				7D56BF3B238159F8009D44DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
